@@ -9,8 +9,7 @@ void main(List<String> args) {
   int b = int.parse(stdin.readLineSync()!);
   int choice=0;
   while(choice!=5){
-    print(
-      "Enter 1 to Perform Addition\nEnter 2 to Perform Subtraction\nEnter 3 to Perform Multiplication\nEnter 4 to Perform Division\nEnter 5 to Exit program\n");
+  print("Enter 1 to Perform Addition\nEnter 2 to Perform Subtraction\nEnter 3 to Perform Multiplication\nEnter 4 to Perform Division\nEnter 5 to Exit program\n");
   choice = int.parse(stdin.readLineSync()!);
    switch (choice) {
     case 1:
