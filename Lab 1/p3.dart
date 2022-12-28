@@ -4,7 +4,7 @@
 import 'dart:io';
 
 void main(List<String> args) {
-  var f = int.parse(stdin.readLineSync()!);
-  var c = ((f - 32) * 5 / 9);
-  print(c);
+  var feh = int.parse(stdin.readLineSync()!);
+  var cei = ((feh - 32) * 5 / 9);
+  print("temperature in Celsius :${cei}");
 }
